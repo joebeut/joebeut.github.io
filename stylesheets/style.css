@@ -1,0 +1,120 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.googleapis.com/css?family=Bitter');
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-color:#dddddd;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#body {
+   padding:0.5em;
+   padding-bottom:7em;   /* Height of the footer */
+}
+
+#large-logo {
+	width: 100%;
+	max-width: 30em;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.subtitle {
+	margin-top: 0em;
+	margin-bottom: .5em;
+	text-align: left;
+}
+
+.table {
+	margin-top: 2em;
+}
+
+h4 {
+	font-family: 'Bitter', sans-serif;
+	font-weight: bold;
+}
+
+.subheader {
+	text-align: right;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+.subp {
+	margin-top: .5em;
+}
+
+.shadow {
+	box-shadow: 0px 10px 10px #888888;
+}
+
+.dark {
+	background-color: #222222;
+	color: #cccccc;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.dark-text {
+	color: #222222;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #bf3030;
+}
+
+b {
+	color: #0f91bd;
+}
+
+.container-fluid {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.title {
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   margin-left: 0;
+   margin-top: 7em;
+   padding-top: 1em;
+   text-align: center;
+   width:100%;
+   height:3.5em;   /* Height of the footer */
+   background: #111111;
+   opacity: .8;
+   color: #34DD45;
+
+   border-top-style: solid;
+   border-top-width: .15em;
+   border-top-color: #333333;
+}
+
+.text-area {
+	height: 10em;
+}
+
+.for5-green {
+	color: #34DD45;
+}
+
+.for5-gray {
+	color: #353233;
+}
