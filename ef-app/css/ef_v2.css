@@ -1,0 +1,866 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.googleapis.com/css?family=Bitter');
+@import url('http://fonts.googleapis.com/css?family=Quicksand');
+@import url('http://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+
+/* START - Homepage/Landing page*/
+
+/*
+	Best Practices
+	Use margin for left, right and padding for top, bottom
+*/
+
+/*
+	All Screen Size Styles
+*/
+
+
+.rectangle-top {	
+	height: 78px;	
+	width: 100%;	
+  background: rgba(255, 255, 255, 0.85);
+	/*opacity: 0.85;	*/
+	/*background-color: white;*/
+	position: fixed;
+	z-index:10;
+}
+
+.eatfreqs-logo-top {
+	margin-top: 23px; 
+	margin-left: 115px;
+	width: 123px;
+	position: relative;
+	float: left;
+}
+
+.ef-dark-btn-right {	
+	height: 50px;	
+	width: 186px;	
+	border-radius: 3px;	
+	background-color: #464646; 
+	margin-top: 14px;
+	margin-right: 21px;
+	float: right;
+	position: relative;
+	z-index:1;
+}
+
+.ef-dark-btn-left {	
+	height: 50px;	
+	width: 186px;	
+	border-radius: 3px;	
+	background-color: #464646; 
+	margin-top: 14px;
+	float: left;
+	position: relative;
+	z-index:1;
+}
+
+.rectangle-clear {	
+	height: 50px;	
+	width: 120px;	
+	border-radius: 3px;	
+	background-color: none; 
+	margin-top: 14px;
+	margin-right: 21px;
+	float: right;
+	position: relative;
+	z-index:1;
+}
+
+.get-started {	
+	color: #FFFFFF;	
+	font-family: Roboto;	
+	font-size: 16px;	
+	font-weight: 500;	
+	letter-spacing: 2px;	
+	line-height: 30px;
+	padding-top: 12px;
+	text-align: center;
+}
+
+.login{	
+	color: black;	
+	font-family: Roboto;	
+	font-size: 16px;	
+	font-weight: 500;	
+	letter-spacing: 2px;	
+	line-height: 30px;
+	padding-top: 12px;
+	padding-left: 30px;
+}
+
+.b-gphoto {	
+	background-image: url("../../img/efdevices.jpg");
+  /* Set a specified height, or the minimum height for the background image */
+  height: 700px;
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+.eatfreqs-logo-top {
+	margin-top: 23px; 
+	width: 123px;
+	position: relative;
+	float: left;
+}
+
+
+.title-box {
+	position: absolute;
+	top: 200px; 
+  left: 0px; 
+  width: 100%;
+  /*opacity: 0.85;	*/
+  background: rgba(255, 255, 255, 0.85);
+	/*background-color: white;*/
+	/*min-width: 300px;
+	height: 300px;
+	padding-top: 200px;
+	min-width: 300px;*/
+}
+
+.title-box-content {
+	width: 100%;
+	max-width: 500px;
+	padding-top: 50px;
+	padding-left: 115px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+.title-header {
+	color: black;	
+	font-family: Roboto;	
+	font-size: 4em;
+}
+
+.title-content {
+	color: black;	
+	font-family: Roboto;	
+	padding-top: 20px;
+	font-size: 1em;
+}
+
+
+
+
+
+.floating-title {	
+	color: #464646;	
+	font-family: ".SF NS Display", Roboto;	
+	font-size: 2em;	
+	letter-spacing: 2px;	
+	line-height: 29px;
+}
+
+.floating-subtitle {	
+	color: #aaaaaa;	
+	font-family: ".SF NS Display", Roboto;	
+	font-size: 1.3em;	
+	letter-spacing: 2px;	
+	line-height: 20px;
+}
+
+.floating-text{	
+	color: #464646;	
+	font-family: Roboto;	
+	font-size: 1.1em;	
+	line-height: 25px;
+	margin-top: 20px;
+}
+
+.floating-title-left {	
+	color: white;	
+	font-family: ".SF NS Display", Roboto;	
+	font-size: 1.5em;	
+	letter-spacing: 2px;	
+	line-height: 29px;
+}
+
+.floating-text-left{	
+	color: white;	
+	font-family: Roboto;	
+	font-size: 1.1em;	
+	line-height: 25px;
+	margin-top: 20px;
+
+}
+
+.testimonial-content{	
+	width: 70%;
+	background-color: none;	
+	margin-top: 250px;
+}
+
+.signup-content {	
+	background-color: none;	
+	margin-top: 100px;
+}
+
+.signup-text{	
+	color: #464646;	
+	font-family: Roboto;	
+	font-size: 1em;	
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+.signup-input{	
+	height: 2em;
+	font-size: 1.5em;
+	font-family: Roboto;
+}
+
+.signup-buffer{	
+	margin-top: 50px;
+}
+
+.signin-input{	
+	background-color: white;
+	opacity: 1.0;	
+	height: 2em;
+	font-size: 1.5em;
+	font-family: Roboto;
+}
+
+.signin-buffer{	
+	padding-bottom: 50px;
+}
+
+
+
+/*
+	Viewport Specific
+*/
+
+/* Bootstrap Large desktop */
+@media (min-width: 1200px) { 
+	.b-gphoto {	
+	  background-attachment: fixed;
+	}
+}
+
+
+/* Bootstrap default desktop */
+@media (min-width: 980px) { 
+	
+}
+ 
+/* Bootstrap Portrait tablet to landscape and desktop */ /*and (max-width: 979px)*/
+@media (min-width: 768px) and (max-width: 1199px){ 
+	.b-gphoto {	
+		background-image: url("../../img/efdevices.jpg");
+	  /* Set a specified height, or the minimum height for the background image */
+	  height: 700px;
+	  /* Set background image to fixed (don't scroll along with the page) */
+	  background-attachment: scroll;
+	  /* Center the background image */
+	  background-position: center;
+	  /* Set the background image to no repeat */
+	  background-repeat: no-repeat;
+	  /* Scale the background image to be as large as possible */
+	  background-size: cover;
+	}
+}
+
+@media (min-width: 768px){ 
+
+	.eatfreqs-logo-top {
+		margin-left: 115px;
+	}
+
+	.ef-dark-btn-right {	
+		height: 50px;	
+		width: 186px;	
+		border-radius: 3px;	
+		background-color: #464646; 
+		margin-top: 14px;
+		margin-right: 21px;
+		float: right;
+		position: relative;
+		z-index:1;
+	}
+
+	.ef-dark-btn-left {	
+		height: 50px;	
+		width: 186px;	
+		border-radius: 3px;	
+		background-color: #464646; 
+		margin-top: 14px;
+		float: left;
+		position: relative;
+		z-index:1;
+	}
+
+	.rectangle-clear {	
+		height: 50px;	
+		width: 120px;	
+		border-radius: 3px;	
+		background-color: none; 
+		margin-top: 14px;
+		margin-right: 21px;
+		float: right;
+		position: relative;
+		z-index:1;
+	}
+
+	.get-started {	
+		color: #FFFFFF;	
+		font-family: Roboto;	
+		font-size: 16px;	
+		font-weight: 500;	
+		letter-spacing: 2px;	
+		line-height: 30px;
+		padding-top: 12px;
+		text-align: center;
+	}
+
+	.login{	
+		color: black;	
+		font-family: Roboto;	
+		font-size: 16px;	
+		font-weight: 500;	
+		letter-spacing: 2px;	
+		line-height: 30px;
+		padding-top: 12px;
+		padding-left: 30px;
+	}
+
+
+	.content-white {	
+		height: 730px;	
+		width: 100%;	
+		background-color: white;
+		z-index:1;
+	}
+
+	.content-light {	
+		height: 730px;	
+		width: 100%;	
+		background-color: #eeeeee;
+		z-index:1;
+	}
+
+	.content-dark {	
+		height: 730px;	
+		width: 100%;	
+		background-color: #464646;
+		z-index:1;
+	}
+
+	.content-left {	
+		height: 730px;	
+		width: 50%;
+		background-color: none;	
+		margin-top: 0px;
+		float: left;
+	}
+
+	.content-right {	
+		height: 730px;	
+		width: 50%;
+		background-color: none;	
+		margin-top: 0px;
+		float: right;
+	}
+
+	.rectangle-content {	
+		width: 80%;	
+		margin-top: 150px;
+		padding: 0px 0px 0px 0px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+		float: right;
+	}
+
+	.rectangle-content-right {	
+		width: 80%;	
+		margin-top: 150px;
+		padding: 0px 0px 0px 0px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	}
+
+	.floating-content {	
+		background-color: none;	
+		margin-top: 250px;
+	}
+
+	.floating-content-left {	
+		height: 509px;	
+		width: 509px;	
+		max-width: 509px;
+		background-color: none;	
+		margin-top: 250px;
+	}
+
+
+
+
+}
+ 
+/* Bootstrap Landscape phone to portrait tablet (min-width: 481px) and */
+@media (max-width: 767px) { 
+
+	.b-gphoto {	
+		/*width: 100%;	*/
+		/*position: relative;
+		height: 400px;
+		background-image: url("../../img/efdevices.jpg");*/
+
+		background-image: url("../../img/efdevices.jpg");
+	  /* Set a specified height, or the minimum height for the background image */
+	  height: 700px;
+	  /* Set background image to fixed (don't scroll along with the page) */
+	  background-attachment: scroll;
+	  /* Center the background image */
+	  background-position: center;
+	  /* Set the background image to no repeat */
+	  background-repeat: no-repeat;
+	  /* Scale the background image to be as large as possible */
+	  background-size: cover;
+	}
+	
+
+	.eatfreqs-logo-top {
+		margin-left: 35px;
+	}
+
+	.title-box-content {
+		padding-left: 35px;
+	}
+
+	.ef-dark-btn-right {	
+		height: 50px;	
+		width: 186px;	
+		border-radius: 3px;	
+		background-color: #464646; 
+		margin-top: 14px;
+		margin-right: 21px;
+		float: right;
+		position: relative;
+		z-index:1;
+	}
+
+	.ef-dark-btn-left {	
+		height: 50px;	
+		width: 186px;	
+		border-radius: 3px;	
+		background-color: #464646; 
+		margin-top: 14px;
+		float: left;
+		position: relative;
+		z-index:1;
+	}
+
+	.rectangle-clear {	
+		height: 50px;	
+		width: 120px;	
+		border-radius: 3px;	
+		background-color: none; 
+		margin-top: 14px;
+		margin-right: 21px;
+		float: right;
+		position: relative;
+		z-index:1;
+	}
+
+	.get-started {	
+		color: #FFFFFF;	
+		font-family: Roboto;	
+		font-size: 16px;	
+		font-weight: 500;	
+		letter-spacing: 2px;	
+		line-height: 30px;
+		padding-top: 12px;
+		text-align: center;
+	}
+
+	.login{	
+		color: black;	
+		font-family: Roboto;	
+		font-size: 16px;	
+		font-weight: 500;	
+		letter-spacing: 2px;	
+		line-height: 30px;
+		padding-top: 12px;
+		padding-left: 30px;
+	}
+
+
+	.content-white {	
+		height: 800px;	
+		width: 100%;	
+		background-color: white;
+		z-index:1;
+	}
+
+	.content-light {	
+		height: 700px;	
+		width: 100%;	
+		background-color: #eeeeee;
+		z-index:1;
+	}
+
+	.content-dark {	
+		height: 700px;	
+		width: 100%;	
+		background-color: #464646;
+		z-index:1;
+	}
+
+	.content-left {	
+		height: 250px;	
+		width: 100%;
+		margin-top: 0px;
+		background-color: none;	
+		margin-top: 0px;
+		padding: 0px 0px 0px 0px;
+
+	}
+
+	.content-right {	
+		height: 250px;	
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		background-color: none;	
+		margin-top: 50px;
+		padding: 0px 0px 0px 0px;
+	}
+
+	.rectangle-content {	
+		width: 60%;	
+		margin-top: 100px;
+		margin-bottom: 50px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+		padding: 0px 0px 0px 0px;
+		float: left;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.rectangle-content-right {	
+		width: 60%;	
+		margin-top: 0px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+		padding: 0px 0px 0px 0px;
+		float: left;
+		margin-left: 10%;
+	}
+
+	.floating-content {	
+		background-color: none;	
+		margin-top: 80px;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.floating-content-left {	
+		background-color: none;	
+		margin-top: 10px;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.floating-title {	
+		color: #464646;	
+		font-family: ".SF NS Display", Roboto;	
+		font-size: 2em;	
+		letter-spacing: 2px;	
+		line-height: 29px;
+	}
+
+
+	.floating-title-left {	
+		color: white;	
+		font-family: ".SF NS Display", Roboto;	
+		font-size: 2em;	
+		letter-spacing: 2px;	
+		line-height: 29px;
+	}
+
+
+
+	.testimonial-content{	
+		width: 80%;
+		background-color: none;	
+		margin-top: 100px;
+		margin-left: 10%;
+	}
+}
+ 
+/* Bootstrap Landscape phones and down */
+@media (max-width: 480px) {
+
+	.rectangle-top {	
+		height: 130px;	
+	}
+
+	.eatfreqs-logo-top {
+		margin-top: 23px; 
+		margin-left: 35px; 
+		width: 100%;
+		position: relative;
+		float: left;
+	}
+
+	.ef-dark-btn-right {	
+		height: 40px;	
+		width: 40%;	
+		border-radius: 3px;	
+		background-color: #464646; 
+		margin-top: 14px;
+		float: right;
+		position: relative;
+		z-index:1;
+	}
+	
+
+	.rectangle-clear {	
+		height: 40px;	
+		width: 40%;	
+		border-radius: 3px;	
+		background-color: #eeeeee; 
+		margin-top: 14px;
+		position: relative;
+		z-index:1;
+		text-align: center;
+
+	}
+
+	.get-started {	
+		color: #FFFFFF;	
+		font-family: Roboto;	
+		font-size: 12px;	
+		font-weight: 500;	
+		letter-spacing: 2px;	
+		line-height: 20px;
+		padding-top: 12px;
+		text-align: center;
+	}
+
+	.login{	
+		font-family: Roboto;	
+		font-size: 12px;	
+		font-weight: 500;	
+		letter-spacing: 2px;	
+		line-height: 20px;
+		padding-top: 12px;
+		text-align: center;
+	}
+
+	.title-box-content {
+		padding-left: 35px;
+	}
+
+
+	.ef-dark-btn-left {	
+		height: 50px;	
+		width: 45%;	
+		border-radius: 3px;	
+		background-color: #464646; 
+		margin-top: 14px;
+		float: left;
+		position: relative;
+		z-index:1;
+	}
+
+	.rectangle-content {	
+		width: 80%;	
+		margin-top: 100px;
+		margin-bottom: 50px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+		padding: 0px 0px 0px 0px;
+		float: left;
+		margin-left: 10%;
+	}
+
+	.rectangle-content-right {	
+		width: 80%;	
+		margin-top: 0px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+		padding: 0px 0px 0px 0px;
+		float: left;
+		margin-left: 10%;
+	}
+
+	.testimonial-content{	
+		width: 80%;
+		background-color: none;	
+		margin-top: 50px;
+		margin-left: 10%;
+	}
+
+}
+
+
+
+
+
+
+
+
+/* END - Homepage/Landing page */
+
+
+/* START - Guest side app*/
+
+body {
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+.guest-app {
+	background-color: black;
+}
+
+.guest-logo {
+	width: 100%;
+	padding-left: 9%;
+	padding-top: 2em;
+}
+
+/* START - Guest tracker*/
+
+.guest-track-block {
+	padding-top: 5%;
+	width: 100%;
+	padding-left: 9%;
+  padding-right: 9%;
+  /*padding-bottom: 10em;*/
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+.guest-restaurant-title {
+	color: #F2F2F2;
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 24px;
+  width:100%;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+.guest-restaurant-subtitle {
+	color: #F2F2F2;
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  padding-top: .5%;
+  padding-bottom: 1em;
+  width:100%;
+  font-weight: 500;
+
+}
+
+.guest-track-header {
+	color: #F2F2F2;
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  padding-top: 1.5em;
+  padding-bottom: .3em;
+  width:100%;
+  border-bottom: white 1px solid;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 500;
+}
+
+.guest-track-place {
+	color: #F5A623;	
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+	font-size: 45px;	
+	font-weight: bold;	
+	line-height: 60px;
+	/*padding-top: .1em;*/
+}
+
+.guest-track-time {
+	color: #F2F2F2;	
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+	font-size: 45px;	
+	font-weight: bold;	
+	line-height: 60px;
+	/*padding-top: .1em;*/
+}
+
+.guest-ready-place {
+	/*color: #009BEF;*/
+	color: #F5A623;	
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+	font-size: 50px;	
+	font-weight: bold;	
+	line-height: 55px;
+	padding-top: 1em;
+}
+
+.guest-ready-time {
+	color: #F2F2F2;	
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+	font-size: 50px;	
+	font-weight: bold;	
+	line-height: 55px;
+	padding-top: .1em;
+
+}
+
+.guest-cancel-box {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	height: 5.4%;	
+	width: 100%;	
+}
+
+.guest-cancel-text{
+	color: #F5A623;
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+  text-align: left;
+  vertical-align: center;
+  text-transform: uppercase;
+	padding-left: 9%;
+	padding-top: 1.4em;
+  font-size: 14px;
+  letter-spacing: .05em;
+  font-weight: 500;
+}
+
+/*#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:60px;
+   width:100%;
+   /*background:#F5A623;
+}
+*/
+.ef-logo {
+	width: 22%;
+}
+
+.logo-style-0{
+	fill:none;
+}
+
+.logo-style-1{
+	fill:#272727;
+}
+
+.logo-style-2{
+	fill:#ffffff;
+}
+
+.logo-style-x{
+	fill:#F2F2F2;
+}
+
+/* END - Guest side app*/
+
+
+
+
+/*mysql -h eatfreqs-trial.cguccd6nx4bk.us-east-1.rds.amazonaws.com -P 3306 -u root -p*/
