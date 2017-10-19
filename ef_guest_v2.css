@@ -20,13 +20,13 @@ body{
 
 /* EF Colors */
 .ef-red {
-	background-color: #FF5C49;
+	background-color: #FEFEFE;
 }
 
 .guest-topbar {
 	height: 40px;	
 	width: 100%;	
-	background-color: #FF00FF;
+	background-color: #FEFEFE;
 	padding-top: 6px;
 }
 
