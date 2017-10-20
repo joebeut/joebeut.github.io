@@ -73,26 +73,39 @@ body{
 }
 
 .b-gphoto {    
-    background-image: url("./Food_pattern.png");
-  height: 350px;/*/*
+  /*background-image: url("./Food_pattern.png");
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;*/
+  background-size: cover;
+  position: relative;
+  margin:0;*/
+
+  height: 300px;
   width: 100%;
+
+	position: absolute;
+	z-index: 5;
+	left: 0;
+	top: 0;
+
 }
+
+
 
 .restaurant-info-box {
 	/*height: 339px;	*/
 	width: 100%;	
-	background-color: #FFFFFF;	
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.19);
+	margin-top: -500px;
 	padding-top: 37px;
 	padding-left: 29px;
 	padding-right: 29px;
 	padding-bottom: 37px;
 	display: block;
 	overflow: auto;
+	position: relative;
+	z-index: 10;
 }
 
 .restaurant-info-text-box {
@@ -299,6 +312,8 @@ body{
 	height: 56px;	
 	width: 100%;	
 	background-color: #F6F6F6;
+	position: relative;
+	z-index: 10;
 }
 
 .category-title-text {
@@ -482,6 +497,12 @@ body{
 	float: right;
 }
 
+.add-on-title-line {
+	width: 100%;
+	height: 50px;
+	padding-top: 15px;
+}
+
 .add-on-line {
 	width: 100%;
 	height: 38px;
@@ -490,22 +511,24 @@ body{
 
 .add-on-checkbox {
 	float: left;
-	float: left;
-	margin-top: 10px;
-	height: 17px;	
-	width: 17px;	
+	margin-top: 15px;
+	background-color: black;
+	height: 18px;	
+	width: 18px;	
 	border: 1px solid #272727;
 }
+
 .add-on-label-title {
 	float:left;
 	color: #272727;	
 	font-family: Helvetica;	
-	font-size: 16px;
-	font--weight: 500;	
+	font-size: 18px;
+	font-weight: bold;	
 	line-height: 19px;
 	margin-left: 0px;
 	margin-top: 8px;
 }
+
 .add-on-label {
 	float:left;
 	color: #272727;	
@@ -513,7 +536,7 @@ body{
 	font-size: 16px;	
 	line-height: 19px;
 	margin-left: 10px;
-	margin-top: 11px;
+	margin-top: 5px;
 }
 
 .add-on-price {
@@ -523,6 +546,8 @@ body{
 	font-family: Helvetica;	
 	font-size: 16px;	
 	line-height: 19px;
+	margin-top: 5px;
+
 }
 
 .instructions-area {
