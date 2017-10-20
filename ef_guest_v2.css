@@ -216,6 +216,7 @@ body{
 	letter-spacing: .1em;	
 	line-height: 19px;
 	margin-top: 26px;
+	float: left;
 }
 .input-label-subtitle {
 	color: #343334;	
@@ -224,9 +225,7 @@ body{
 	font-weight: 200;	
 	line-height: 19px;
 	margin-top: 26px;
-	font-variant: normal;
-	letter-spacing: normal;
-}
+	float: left;
 }
 
 .input-box {	
