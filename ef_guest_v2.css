@@ -208,22 +208,22 @@ body{
 }
 
 .input-label {
-	color: #000000;	
+	color: #404042;	
 	font-family: Helvetica, sans-serif;	
-	font-size: 16px;	
-	font-weight: bold;	
+	font-size: 14px;	
+	font-weight: 500;	
 	line-height: 19px;
 	margin-top: 26px;
 }
 
 .input-box {	
 	height: 42px;	
-	font-size: 24px;	
+	font-size: 18px;	
 	width: 100%;	
 	border: 1px solid #979797;	
 	background-color: #F9F9F9;
-	margin-top: 12px;
-	padding-left: 6px;
+	margin-top: 6px;
+	padding-left: 12px;
 }
 
 .add-button {	
@@ -403,7 +403,7 @@ body{
 .order-item-box {	
 	width: auto;	
 	margin-top: 30px;
-	border-bottom: 1px solid #979797;
+	border-bottom: 1px solid #E1E1E1;
 	min-height: 70px;
 	display:block;
 	overflow:auto;
@@ -554,7 +554,8 @@ body{
 	margin-top: 20px;
 	width: 98%;
 	height: 100px;
-	border: 1px black solid;
+	border: 1px #A6A6A6 solid;
+	background-color: #F9F9F9
 }
 
 
