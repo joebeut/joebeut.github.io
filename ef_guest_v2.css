@@ -495,7 +495,15 @@ body{
 	width: 17px;	
 	border: 1px solid #000000;
 }
-
+.add-on-label-title {
+	float:left;
+	color: #000000;	
+	font-family: Helvetica;	
+	font-size: 16px;	
+	line-height: 19px;
+	margin-left: 10px;
+	margin-top: 4px;
+}
 .add-on-label {
 	float:left;
 	color: #000000;	
