@@ -212,7 +212,7 @@ body{
 	font-family: Helvetica, sans-serif;	
 	font-size: 14px;	
 	font-weight: 600;
-	font-variant-caps: small-caps;
+	font-variant-caps: all-petite-caps;
 	letter-spacing: .1em;	
 	line-height: 19px;
 	margin-top: 26px;
@@ -224,6 +224,8 @@ body{
 	font-weight: 200;	
 	line-height: 19px;
 	margin-top: 26px;
+	font-variant: normal;
+	letter-spacing: normal;
 }
 }
 
