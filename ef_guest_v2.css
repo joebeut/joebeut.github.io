@@ -75,7 +75,7 @@ body{
 .b-gphoto {    
     background-image: url("./Food_pattern.png");
   /* Set a specified height, or the minimum height for the background image */
-  height: 700px;
+  height: 350px;
   /* Set background image to fixed (don't scroll along with the page) */
   background-attachment: fixed;
   /* Center the background image */
