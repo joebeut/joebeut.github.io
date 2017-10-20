@@ -358,12 +358,12 @@ body{
 .item-title-text {
 	font-family: Helvetica;	
 	font-size: 16px;	
-	font-weight: 500;	
+	font-weight: bold;	
 	float: left;
 	line-height: 18px;
 	margin-top: 14px;
 	margin-left: 31px;
-	color: #272727;	
+	color: #FF5C49;	
 }
 
 .item-price {
@@ -396,7 +396,8 @@ body{
 
 .item-cart-text {
 	font-family: Helvetica;	
-	font-size: 14px;	
+	font-size: 14px;
+	font-weight: 600px;	
 	margin-top: 17px;
 	margin-left: 31px;
 	color: #343334;	
