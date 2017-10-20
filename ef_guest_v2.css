@@ -205,15 +205,16 @@ body{
 	font-weight: bold;	
 	line-height: 42px;
 	width: 250px;
+	padding-top: 1em;
 }
 
 .input-label {
 	color: #343334;	
 	font-family: Helvetica, sans-serif;	
-	font-size: 14px;	
+	font-size: 16px;	
 	font-weight: 600;
 	font-variant-caps: all-petite-caps;
-	letter-spacing: .1em;	
+	letter-spacing: .05em;	
 	line-height: 19px;
 	margin-top: 26px;
 	float: left;
@@ -225,6 +226,8 @@ body{
 	font-weight: 200;	
 	line-height: 19px;
 	margin-top: 26px;
+	margin-left: 10px;
+	]
 	float: left;
 }
 
