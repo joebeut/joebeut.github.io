@@ -448,10 +448,9 @@ body{
 	font-family: Helvetica;
 	color:#343334;
 	font-size:14px;
-	margin-top:17px;
 	font-weight:300;
 	float: left;
-	margin-top: 7px;
+	margin-top: 17px;
 }
 
 .order-item-close {
