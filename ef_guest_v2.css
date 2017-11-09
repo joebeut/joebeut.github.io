@@ -10,7 +10,7 @@ html{
 
 body{
 	background-color: white;
-	color: #4D4E4E;
+	color: #003A2F;
 	width: 100%;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -18,15 +18,30 @@ body{
 	margin-bottom: 0px;
 }
 
+select {
+	height: 42px;	
+	font-size: 18px;	
+	width: 100%;	
+	border: 1px solid #979797;	
+	background-color: #F9F9F9;
+	margin-top: 6px;
+	padding-left: 12px;
+}
+
+
 /* EF Colors */
-.ef-red {
-	background-color: #FEFEFE;
+.ef-green {
+	background-color: #003A2F;
+}
+
+.no-a {
+	color: white;
 }
 
 .guest-topbar {
 	height: 50px;	
 	width: 100%;	
-	background-color: #FF5C49;
+	background-color: #003A2F;
 	padding-top: 6px;
 }
 
@@ -72,6 +87,28 @@ body{
 	margin-right: 30px;
 }
 
+.topbar-text-left {
+	color: #FFFFFF;	
+	font-family: Helvetica;	
+	font-size: 16px;	
+	font-weight: bold;	
+	float: left;
+	display: relative;
+	margin-left: 30px;
+	margin-top: 9px;
+}
+
+.topbar-text-right {
+	color: #FFFFFF;	
+	font-family: Helvetica;	
+	font-size: 16px;	
+	font-weight: bold;	
+	float: right;
+	display: relative;
+	margin-right: 30px;
+	margin-top: 9px;
+}
+
 .background-food {
 	width: 100%;
 	height: 0px;
@@ -107,7 +144,7 @@ body{
 	margin-top: 24px;
 	height: 50px;	
 	width: 100%;	
-	border: 2px solid #FF5C49;	
+	border: 2px solid #003A2F;	
 	border-radius: 6px;	
 	background-color: #FFFFFF;
 	padding-left: 20px;
@@ -119,7 +156,7 @@ body{
 	display: block;
 	overflow: auto;
 	width: 100%;	
-	border: 2px solid #FF5C49;	
+	border: 2px solid #003A2F;	
 	border-radius: 6px;	
 	background-color: #FFFFFF;
 	padding-left: 20px;
@@ -133,7 +170,7 @@ body{
   height: 0; 
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #FF5C49;
+  border-top: 10px solid #003A2F;
 
 	margin-top: 20px;
 	float: right;
@@ -141,7 +178,7 @@ body{
 
 .menu-dropdown-text-selected {
 	height: 19px;	
-	color: #FF5C49;	
+	color: #003A2F;	
 	font-family: Helvetica;	
 	font-size: 18px;	
 	font-weight: bold;	
@@ -152,7 +189,7 @@ body{
 
 .menu-dropdown-text {
 	height: 19px;	
-	color: #8C8C8C;
+	color: #003A2F;
 	font-family: Helvetica;	
 	font-size: 16px;	
 	font-weight: bold;	
@@ -179,8 +216,17 @@ body{
 	width: auto;
 }
 
+.dash-name {
+	color: #003A2F;	
+	font-family: Helvetica;	
+	font-size: 40px;	
+	font-weight: bold;	
+	width: 150px;
+	padding-top: 1em;
+}
+
 .restaurant-name {
-	color: #FF5C49;	
+	color: #003A2F;	
 	font-family: Helvetica;	
 	font-size: 40px;	
 	font-weight: bold;	
@@ -221,6 +267,8 @@ body{
 	padding-left: 12px;
 }
 
+
+
 .add-button {	
 	height: 39px;	
 	width: 226px;	
@@ -229,7 +277,16 @@ body{
 	margin-top: 58px;
 	text-align: center;
 	/*padding-top: 20px;*/
+}
 
+.add-button-inactive {	
+	height: 39px;	
+	width: 226px;	
+	border-radius: 3px;	
+	background-color: #555555;
+	margin-top: 58px;
+	text-align: center;
+	/*padding-top: 20px;*/
 }
 
 .add-button-text {
@@ -318,7 +375,7 @@ body{
 	margin-top: 16px;
 	margin-left: 31px;
 
-	color: #FF5C49;	
+	color: #003A2F;	
 	font-family: Helvetica;	
 	font-size: 18px;	
 	font-weight: bold;
@@ -344,7 +401,7 @@ body{
 	line-height: 18px;
 	margin-top: 14px;
 	margin-left: 31px;
-	color: #FF5C49;	
+	color: #003A2F;	
 }
 
 .item-price {
@@ -370,6 +427,11 @@ body{
 	float: left;
 }
 
+.menu-item-line {
+	width: 100%;
+	height: 40px;
+}
+
 .cart-item-line {
 	width: 100%;
 	height: 40px;
@@ -393,6 +455,27 @@ body{
 	margin-right: 31px;
 	color: #343334;	
 	float:right;
+}
+
+.drink-count {
+	width: 40px;
+	font-family: Helvetica;	
+	font-size: 14px;	
+	margin-top: 10px;
+	margin-right: 16px;
+	color: #343334;	
+	float:right;
+}
+
+.drink-price {
+	color: #343334;	
+	font-family: Helvetica;	
+	font-size: 14px;	
+	font-weight: 500;	
+	float: right;
+	margin-top: 14px;
+	margin-right: 16px;
+	text-align: right;
 }
 
 
@@ -424,6 +507,7 @@ body{
 	float: left;
 	margin-top: 7px;
 }
+
 .item-cart-text-subtitle {
 	margin-left: 10px;
 	font-family: Helvetica;
@@ -461,6 +545,8 @@ body{
 	overflow:auto;
 }
 
+
+
 .order-extra-line {
 	width: 100%;
 	height: 20px;
@@ -468,12 +554,36 @@ body{
 
 .order-extra-title {	
 	height: 19px;	
-	color: #FF5C49;	
+	color: #003A2F;	
 	font-family: Helvetica;	
 	font-size: 18px;	
 	font-weight: bold;	
 	line-height: 19px;
 	float: left;
+}
+
+.payment-info-box {	
+	width: auto;	
+	background-color: #dddddd;
+	border-top: 1px #999999 solid;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	display:block;
+	overflow:auto;
+}
+
+.payment-info-line {
+	width: 100%;
+	height: 20px;
+	margin-top: 12px;
+
+}
+
+.payment-info-text {
+	font-family: Helvetica;	
+	font-size: 16px;	
+	margin-left: 31px;
+	color: black;	
 }
 
 .confirmation-text-box {	
@@ -488,16 +598,48 @@ body{
 	padding-right: 30px;
 	padding-left: 30px;
 	width: auto;
-	height: 25px;
+	display:block;
+	overflow:auto;
+	margin-top:20px;
+}
+
+.select-line {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 100px;
+}
+
+.confirmation-text-title {
+	color: #003A2F;	
+	font-family: Helvetica;
+	font-weight: bold;	
+	font-size: 20px;	
+	font-weight: bold;	
+	float: left;
 }
 
 .confirmation-text {
-	height: 19px;	
 	color: #272727;	
 	font-family: Helvetica;	
 	font-size: 16px;	
 	line-height: 19px;
 	float: left;
+}
+
+.confirmation-text-notes-title {
+	color: #003A2F;	
+	font-family: Helvetica;	
+	font-size: 16px;	
+	line-height: 19px;
+	font-weight: bold;
+}
+
+.confirmation-text-notes {
+	color: #272727;	
+	font-family: Helvetica;	
+	font-size: 14px;	
+	font-weight: 400;
+	margin-top: 6px;
 }
 
 .text-right {
@@ -581,7 +723,17 @@ body{
 	margin-top: 20px;
 	margin-bottom: 25px;
 	border-radius: 3px;	
-	background-color: #000000;
+	background-color: #003A2F;
+	padding: 10px 0;
+}
+
+.add-to-order-inactive {	
+	width: 226px;	
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-radius: 3px;	
+	background-color: #999999;
 	padding: 10px 0;
 }
 
@@ -701,6 +853,12 @@ body{
   font-weight: 500;
 }
 
+.error {
+	color: red;
+	font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 12px;
+} 
+
 /* Stripe CSS */
 .StripeElement {
   background-color: white;
@@ -722,4 +880,11 @@ body{
 
 .StripeElement--webkit-autofill {
   background-color: #fefde5 !important;
+}
+
+.stripe-button-custom {
+	margin-top: 20px;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
 }
