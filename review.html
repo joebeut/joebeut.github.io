@@ -37,46 +37,58 @@
 </head>
 
 <body>
-
   <div class="guest-topbar">
-    <!-- <div class="cart-count-box">
-    </div> -->
-    <div class="cart-view">View Order</div>
+    <div class="cart-count-box">
+      <div class="cart-count-number">2</div>
+    </div>
+    <div class="cart-subtotal">DASH Order Ahead</div>
+    <div class="cart-view"><a href="" class="no-a">View Order</a></div>
   </div>
 
   <div class="order-item-box page-margin">
     <div class="order-item-title-text">Payment</div>
-    <div class="order-item-close">X</div>
   </div>
 
-  <div class="order-extra-box">
-    <div class="item-title-text">Joe Beutler</div>
-    <div class="item-title-text">joe@eatfreqs.com</div>
-    <div class="item-title-text">646-499-1630</div>
+  <div class="payment-info-box">
+    <div class="payment-info-line">
+      <div class="payment-info-text">Name: Joe Beutler</div>
+    </div>
+
+    <div class="payment-info-line">
+      <div class="payment-info-text">Email: joebeut@gmail.com</div>
+    </div>
+
+    <div class="payment-info-line">
+      <div class="payment-info-text">Phone: 646-499-1234</div>
+    </div>
   </div>
 
-  <div class="order-extra-box">
-    <div class="item-title-text">Total</div>
-    <div class="item-price">$16.38</div>
-  </div>
-
-
-  <div class="order-extra-box">
-    <div class="item-title-text">
-      <form action="charge.php" method="post">
-        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="<?php echo $stripe['publishable_key']; ?>"
-                data-description="<?php echo $description; ?>"
-                data-amount="<?php echo $price; ?>"
-                data-locale="auto"></script>
-      </form>
+  <div class="payment-info-box">
+    <div class="payment-info-line">
+      <div class="payment-info-text">Subtotal: $34.92</div>
+    </div>
+    <div class="payment-info-line">
+      <div class="payment-info-text">Sales Tax: $2.31</div>
+    </div>
+    <div class="payment-info-line">
+      <div class="payment-info-text">Total: $37.23</div>
     </div>
   </div>
 
 
+  <div class="stripe-button-custom">
+    <form action="charge.php" method="post">
+      <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="<?php echo $stripe['publishable_key']; ?>"
+              data-description="<?php echo $description; ?>"
+              data-amount="<?php echo $price; ?>"
+              data-locale="auto"></script>
+    </form>
+  </div>
+  <a href="./confirmation.html">
+    Click here to skip payment.
+  </a>
   
 
 </body>
-
-
 </html>

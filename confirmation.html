@@ -39,30 +39,37 @@
 <body>
 
   <div class="guest-topbar">
-      <div class="cart-count-number">Confirmed!</div>
+    <div class="topbar-text-left">Confirmed!</div>
+    <div class="topbar-text-right" ng-click="newOrder()">New Order</div>
   </div>
 
   <div class="restaurant-info-box">
-    <div class="restaurant-name">The League Kitchen + Tavern</div>
+    <div class="restaurant-name">Example Restaurant</div>
     <div class="restaurant-info-text-box">
-      <div class="restaurant-info-text">Tuesday, October 31 | 11:00AM - 10:00PM</div>
+      <div class="restaurant-info-text">Wed, November | 11:00AM - 10:00PM</div>
       <div class="restaurant-info-text">10526 W Parmer Ln, Austin, TX 78717</div>
     </div>
   </div>
 
 
-  <div class="order-item-box page-margin">
-    <div class="order-item-title-text">Order Ahead Confirmation</div>
+  <div class="payment-info-box">
+    <div class="confirmation-line">
+      <div class="confirmation-text-title">Order Ahead Confirmation</div>
+    </div>
   </div>
 
-  <div class="confirmation-text-box">
+  <div class="payment-info-box">
     <div class="confirmation-line">
       <div class="confirmation-text">Order Number:</div>
-      <div class="confirmation-text text-right">1-29</div>
+      <div class="confirmation-text text-right">1-21</div>
+    </div>
+    <div class="confirmation-line">
+      <div class="confirmation-text">Group Size:</div>
+      <div class="confirmation-text text-right">4</div>
     </div>
     <div class="confirmation-line">
       <div class="confirmation-text">Total:</div>
-      <div class="confirmation-text text-right">$53.18</div>
+      <div class="confirmation-text text-right">$43.21</div>
     </div>
 
     <div class="confirmation-line">
@@ -70,12 +77,45 @@
     </div>
 
     <div class="confirmation-line">
-      <div class="confirmation-text">joe@eatfreqs.com</div>
+      <div class="confirmation-text">joebeut@gmail.com</div>
     </div>
 
     <div class="confirmation-line">
-      <div class="confirmation-text">646-499-1630</div>
+      <div class="confirmation-text">646-499-1234</div>
     </div>
+
+    <div class="confirmation-line">
+      <div class="confirmation-text">Received at 12:02 pm</div>
+    </div>
+  </div>
+
+  <div class="payment-info-box">
+    <div class="confirmation-line">
+      <div class="confirmation-text">Your items:</div>
+    </div>
+    <!-- <div ng-repeat="item in confirmation.orderItems"> -->
+    <div class="confirmation-line">
+      <div class="confirmation-text-notes-title">Burger</div>
+      <div class="confirmation-text-notes">Medium well, Fries, Avocado</div>
+    </div>
+
+    <div class="confirmation-line">
+      <div class="confirmation-text-notes-title">Southwest Salad</div>
+      <div class="confirmation-text-notes">Cilantro Ranch, Chicken</div>
+    </div>
+
+    <div class="confirmation-line">
+      <div class="confirmation-text-notes-title">Dr Pepper (x2)</div>
+      <div class="confirmation-text-notes"></div>
+    </div>
+    <!-- </div> -->
+  </div>
+
+  <div class="payment-info-box">
+    <div class="confirmation-line">
+      <div class="confirmation-text-notes-title">Instructions:</div>
+      <div class="confirmation-text-notes">Your order will be ready in 15-20 minutes, and your table will be waiting for you when you arrive.</div>
+      <div class="confirmation-text-notes">Please proceed to the host stand, say you are dining with DASH, and provide your name and order number.</div>
   </div>
 
 </body>

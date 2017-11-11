@@ -65,66 +65,30 @@
 
     <div class="add-on-title-line">
       <div class="add-on-label-title">Meat Temperature</div>
-     </div>
-
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Rare</div>
-      <div class="add-on-price"></div>
     </div>
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Medium Rare</div>
-      <div class="add-on-price"></div>
-    </div>
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Medium</div>
-      <div class="add-on-price"></div>
-    </div>
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Medium Well</div>
-      <div class="add-on-price"></div>
-    </div>
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Well Done</div>
-      <div class="add-on-price"></div>
-    </div>
-
+    <select name="">
+      <option value="volvo">Rare</option>
+      <option value="saab">Medium Rare</option>
+      <option value="mercedes">Medium</option>
+      <option value="audi">Medium Well</option>
+      <option value="audi">Well</option>
+    </select>
 
     <div class="add-on-title-line">
       <div class="add-on-label-title">Sides</div>
     </div>
-
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Hand-cut Fries</div>
-      <div class="add-on-price"></div>
-    </div>
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Mashed Potatoes</div>
-      <div class="add-on-price"></div>
-    </div>
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Baked Sweet Potato</div>
-      <div class="add-on-price"></div>
-    </div>
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Truffle Fries</div>
-      <div class="add-on-price">+$1.99</div>
-    </div>
-    <div class="add-on-line">
-      <input id="id" name="name" type="radio" class="add-on-checkbox"/>
-      <div class="add-on-label">Onion Rings</div>
-      <div class="add-on-price">+$1.99</div>
-    </div>
+    <select name="">
+      <option value="volvo">Hand-cut Fries</option>
+      <option value="saab">Mashed Potatos</option>
+      <option value="mercedes">Baked Sweet Potatoes</option>
+      <option value="audi">Truffule Fries +$1.99</option>
+      <option value="audi">Onion Rings +$1.99</option>
+    </select>
 
 
+    <div class="add-on-title-line">
+      <div class="add-on-label-title">Extras</div>
+    </div>
     <div class="add-on-line">
       <!-- TODO: NEED TO FIGURE OUT HOW TO CHECK FOR CHECKED OR NOT ON THE MODEL FOR THIS CHECKBOX -->
       <input name="box1" type="checkbox" class="add-on-checkbox"/>
@@ -137,6 +101,18 @@
       <div class="add-on-label">Jalapenos</div>
       <div class="add-on-price">+$.49</div>
     </div>
+    <div class="add-on-line">
+      <!-- TODO: NEED TO FIGURE OUT HOW TO CHECK FOR CHECKED OR NOT ON THE MODEL FOR THIS CHECKBOX -->
+      <input name="box1" type="checkbox" class="add-on-checkbox"/>
+      <div class="add-on-label">Mushrooms</div>
+      <div class="add-on-price">+$.49</div>
+    </div>
+    <div class="add-on-line">
+      <!-- TODO: NEED TO FIGURE OUT HOW TO CHECK FOR CHECKED OR NOT ON THE MODEL FOR THIS CHECKBOX -->
+      <input name="box1" type="checkbox" class="add-on-checkbox"/>
+      <div class="add-on-label">Jalapeno Gravy</div>
+      <div class="add-on-price">+$.49</div>
+    </div>
   </div>
 
   <div class="order-extra-box page-margin">
@@ -146,7 +122,7 @@
 
 
   <div class="add-to-order">
-    <div class="add-to-order-text" ng-click="addItemToCart(selectedMenuItem)">Add to order $14.99</div>
+    <a href="./cart.html"><div class="add-to-order-text" ng-click="addItemToCart(selectedMenuItem)">Add to order $14.99</div></a>
   </div>
 
 </body>

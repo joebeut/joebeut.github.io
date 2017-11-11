@@ -47,7 +47,9 @@
   </div>
 
   
-  <img src="Food_pattern.png" alt="Smiley face" width="100%">
+  <div class="background-food" ng-if="menuPage=='view'||menuPage=='order'">
+   <img src="./img/Food_pattern.png" alt="Yummy food" width="100%">
+  </div>
 
   <div class="restaurant-info-box">
 
@@ -61,28 +63,7 @@
       <div class="menu-dropdown-text-selected">Lunch Menu</div>
       <div class="menu-open-arrow"></div>
     </div>
-    <!-- <div class="menu-dropdown-open">
-      <div class="menu-dropdown-line">
-        <div class="menu-dropdown-text-selected">Dinner Menu</div>
-        <div class="menu-open-arrow"></div>
-      </div>
-      <div ng-repeat="menu in menus">
-        <div class="menu-dropdown-line" ng-if="menu.menuName!=selectedMenu.menuName" ng-click="changeMenu(menu)">
-          <div class="menu-dropdown-text">{{menu.menuName}}</div>
-        </div>
-      </div>
-    </div> -->
   </div>
-
-  <!-- <div class="menu-title-box">
-    <div class="menu-title-textbox">
-      <div class="menu-title-text">Lunch Menu</div>
-    </div>
-    <div class="preorder-description">
-      Pre-order available Monday-Friday from 11am to 2pm.
-    </div>
-  </div>
- -->
 
   <div class="category-title-box">
     <div class="category-title-text">Starters</div>
@@ -90,51 +71,87 @@
 
   <a href="./order_item.html">
   <div class="menu-item-box">
-    <div class="item-title-text">Roasted Garlic Hummus</div>
-    <div class="item-price">$9.00</div>
-    <div class="item-description">
-      Feta, Charred peppers, Olives, Roasted garlic, Carmalized onions
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Roasted Garlic Hummus</div>
+      <div class="item-price">$9.00</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        Feta, Charred peppers, Olives, Roasted garlic, Carmalized onions
+      </div>
     </div>
   </div>
   </a>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Meatloaf Bites</div>
-    <div class="item-price">$10.99</div>
-    <div class="item-description">
-      Chipotle ketchup, Piped potatoes
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Meatloaf Bites</div>
+      <div class="item-price">$10.99</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        Chipotle ketchup, Piped potatoes
+      </div>
     </div>
   </div>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Spinach Artichoke Dip</div>
-    <div class="item-price">$11.99</div>
-    <div class="item-description">
-      Tortilla Chips
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Spinach Artichoke Dip</div>
+      <div class="item-price">$11.99</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        Tortilla Chips
+      </div>
     </div>
   </div>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Grilled Wings</div>
-    <div class="item-price">$9.99</div>
-    <div class="item-description">
-      House-made Brooklyn BBQ or Buffalo sauce
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Grilled Wings</div>
+      <div class="item-price">$9.99</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        House-made Brooklyn BBQ or Buffalo sauce
+      </div>
     </div>
   </div>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Hand-Cut Truffle Fries</div>
-    <div class="item-price">$8.99</div>
-    <div class="item-description">
-      Truffle salt, Parmesan, Garlic aioli
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Hand-Cut Truffle Fries</div>
+      <div class="item-price">$8.99</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        Truffle salt, Parmesan, Garlic aioli
+      </div>
     </div>
   </div>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Stuffed Jalepe&ntilde;o Peppers</div>
-    <div class="item-price">$8.99</div>
-    <div class="item-description">
-      House-made Brooklyn BBQ or Buffalo sauce
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Stuffed Jalepe&ntilde;o Peppers</div>
+      <div class="item-price">$8.99</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        House-made Brooklyn BBQ or Buffalo sauce
+      </div>
     </div>
   </div>
 
@@ -143,34 +160,57 @@
   </div>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Crowned Wedge</div>
-    <div class="item-price">$9.99</div>
-    <div class="item-description">
-      Bibb lettuce, Tomatoes, Bleu cheese crumbles, Sugar cured bacon, Fried egg, Bleu cheese dressing
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Crowned Wedge</div>
+      <div class="item-price">$9.99</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        Bibb lettuce, Tomatoes, Bleu cheese crumbles, Sugar cured bacon, Fried egg, Bleu cheese dressing
+      </div>
     </div>
   </div>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Cobb</div>
-    <div class="item-price">$13.99</div>
-    <div class="item-description">
-      Artisan greens, Rotisserie turkey, Bleu cheese crumbles, Avocado, Tomatoes, Sugar cured bacon, Hard boiled egg, Ranch
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Cobb</div>
+      <div class="item-price">$13.99</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        Artisan greens, Rotisserie turkey, Bleu cheese crumbles, Avocado, Tomatoes, Sugar cured bacon, Hard boiled egg, Ranch
+      </div>
     </div>
   </div>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Steak Salad</div>
-    <div class="item-price">$14.99</div>
-    <div class="item-description">
-      Grilled sirloin, Artisan greens, Bleu cheese, Pickled baby beets, Tabasco shoestring onions, Mustard vinaigrette
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Steak Salad</div>
+      <div class="item-price">$14.99</div>
+    </div>
+    <div class="menu-item-line">
+
+      <div class="item-description">
+        Grilled sirloin, Artisan greens, Bleu cheese, Pickled baby beets, Tabasco shoestring onions, Mustard vinaigrette
+      </div>
     </div>
   </div>
 
   <div class="menu-item-box">
-    <div class="item-title-text">Spinach & Kale Salad</div>
-    <div class="item-price">$14.99</div>
-    <div class="item-description">
-      Spinach, Kale, White cheddar, Red onions, Granny smith apples, Dried cranberries, Candied walnuts, Apple cider vinaigrette    
+    <div class="menu-item-line">
+
+      <div class="item-title-text">Spinach & Kale Salad</div>
+      <div class="item-price">$14.99</div>
+    </div>
+    <div class="menu-item-line">
+      <div class="item-description">
+        Spinach, Kale, White cheddar, Red onions, Granny smith apples, Dried cranberries, Candied walnuts, Apple cider vinaigrette    
+      </div>
     </div>
   </div>
 
