@@ -93,22 +93,22 @@
 	font-size: 30px;	
 	font-style: italic;	
 	line-height: 77px;
-	padding-top: 143px;
+	padding-top: 120px;
 	padding-left: 20px;
 	position: relative;
 }
 
 .dash-headline {	
-	font-size: 30px;	
+	font-size: 50px;	
 	font-style: italic;	
 	font-weight: 700;
-	line-height: 77px;
+	line-height: 60px;
 }
 
 .dash-subheadline {	
-	font-size: 30px;	
+	font-size: 50px;	
 	font-style: italic;	
-	line-height: 40px;
+	line-height: 60px;
 }
 
 .find-button-text {	
@@ -126,7 +126,7 @@
 	/*width: 110px;	*/
 	background-color: #003A2F;
 	border-radius: 6px;
-	margin-top: 20px;
+	margin-top: 150px;
 	margin-left: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -153,7 +153,7 @@
 	width: 102%;	
 	background-color: #E9E9E9;	
 	box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
-	height: 1050px;
+	height: 1100px;
 }
 
 .content-panel-left {	
@@ -302,6 +302,7 @@
 	border-radius: 20px;
 	position:relative;
 	margin-right: 24px;
+	margin-bottom: 16px;
 }
 
 .oval-number {	
@@ -326,7 +327,7 @@
 }
 
 .img-iphones-menu {
-	margin-top: 500px;
+	margin-top: 550px;
 	width: 470px;
 	position:relative;
 	z-index: 6;
