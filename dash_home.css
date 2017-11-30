@@ -326,13 +326,13 @@
 }
 
 .img-iphones-menu {
-	margin-top: 140px;
-	width: 760px;
+	margin-top: 500px;
+	width: 470px;
 	position:relative;
 	z-index: 6;
 	padding-top:350px
-	padding-right:320px;
-	margin-left:-60px;
+/*	padding-right:320px;
+*/	margin-left:-80px;
 }
 
 
