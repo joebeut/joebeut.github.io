@@ -347,10 +347,13 @@
 
 	.topbar-left {
 		width: 50%;
+		float:left;
+
 	}
 
 	.topbar-right {
 		width: 50%;
+		float:right;
 	}
 
 	.topbar-rectangle {
