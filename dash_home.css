@@ -1,7 +1,7 @@
 
 
 .dash-bg-photo {	
-	background-image: url("../img/HomepageBGPhoto.png");
+	background-image: url("./img/HomepageBGPhoto.png");
   /* Set a specified height, or the minimum height for the background image */
   height: 700px;
   /* Set background image to fixed (don't scroll along with the page) */
@@ -332,7 +332,7 @@
 @media (min-width: 980px) { 
 
 	.dash-bg-photo {	
-		background-image: url("../img/HomepageBGPhoto.png");
+		background-image: url("./img/HomepageBGPhoto.png");
 	  /* Set a specified height, or the minimum height for the background image */
 	  height: 700px;
 	  /* Set background image to fixed (don't scroll along with the page) */
