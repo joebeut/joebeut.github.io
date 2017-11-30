@@ -141,7 +141,7 @@
 
 
 .content-panel-white {	
-	height: 880px;	
+	height: 770px;	
 	width: 100%;	
 	background-color: white;
 	position: relative;
@@ -157,7 +157,7 @@
 }
 
 .content-panel-left {	
-	height: 440px;	
+	height: 320px;	
 	width: 100%;
 	background-color: none;	
 	margin-top: 0px;
@@ -174,7 +174,7 @@
 
 
 .content-panel-title {	
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-left: 20px;
 	color: #042D23;	
 	font-family: "IBM Plex Sans";	
@@ -193,7 +193,7 @@
 }
 
 .content-panel-subtitle {	
-	margin-top: 30px;
+	margin-top: 80px;
 	margin-left: 20px;
 	color: #042D23;	
 	font-family: "IBM Plex Sans";	
@@ -479,7 +479,7 @@
 	}
 
 	.content-panel-left {	
-		height: 440px;	
+		height: 270px;	
 		width: 50%;
 		background-color: none;	
 		margin-top: 0px;
