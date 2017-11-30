@@ -153,7 +153,7 @@
 	width: 100%;	
 	background-color: #E9E9E9;	
 	box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
-	height: 800px;
+	height: 1050px;
 }
 
 .content-panel-left {	
@@ -327,9 +327,12 @@
 
 .img-iphones-menu {
 	margin-top: 140px;
-	width: 600px;
+	width: 760px;
 	position:relative;
 	z-index: 6;
+	padding-top:350px
+	padding-right:320px;
+	margin-left:-60px;
 }
 
 
