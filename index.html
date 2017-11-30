@@ -19,6 +19,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="./ef_guest_v2.css" />
+  <link rel="stylesheet" href="./dash_home.css" />
   <link rel="stylesheet" href="../shared/css/ef_social.css" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
@@ -38,76 +39,248 @@
 
 <body>  
 
-  <div class="guest-topbar">
-    <div class="topbar-text-left"><img width="60px" src="./img/DashLogo_white.svg"></div>
-  </div>
+  <div class="page">
+    <div class="rectangle-top">
+      <div class="topbar-left">
+        <div class="dash-logo-top"><div ng-include="'./img/DashLogo_green.svg'"></div></div>
+      </div>
 
-  <div class="background-food">
-   <img src="./img/Food_pattern.png" alt="Yummy food" width="100%">
-  </div>
+      <div class="topbar-right">
+        <div class="topbar-rectangle-signup">
+          <!-- <a href="#intro?scrollTo=getstarted"> -->
+            <div class="topbar-text-login">Sign Up</div>
+          <!-- </a> -->
+        </div>
 
+        <div class="topbar-rectangle">
+          <div class="topbar-text-login">Login</div>
+        </div>
 
-  <div class="restaurant-info-box">
-    <div class="dash-name"><img width="150px" src="./img/DashLogo_green.svg"></div>
-    <!-- <div class="restaurant-name">Order Ahead</div></div> -->
-    <div class="menu-dropdown-closed">
-      <div class="menu-dropdown-text-selected">Austin</div>
-      <div class="menu-open-arrow"></div>
+        <div class="topbar-rectangle">
+          <div class="topbar-text-restaurants">For Restaurants</div>
+        </div>
+      </div>
+
+      
     </div>
+
+    <div class="dash-bg-photo">
+      <div class="dash-headline-box">
+        <div class="dash-headline">Order Ahead!</div>
+        <div class="dash-subheadline">Enjoy a sit-down dining experience, under 30 minutes.</div>
+      </div>
+
+      <div class="find-button"><div class="find-button-text">Find Restaurants</div></div>
+    </div>
+
+    <div class="content-panel-white">
+      <div class="content-panel-left">  
+        <div class="content-panel-title">  
+          Dine and Dash
+        </div>
+        <div class="content-panel-text">  
+          Most of the time you spend at a restaurant, you are just waiting for something to happen. With DASH you can pre-order your meal so when you arrive it is ready to eat. When you are finished, just leave! 
+        </div>
+      </div>
+      <div class="content-panel-right">
+        <div class="content-panel-subtitle">  
+          Traditional Dining >1hr
+        </div>
+
+        <div class="timeline-box">
+          <div class="timeline-row">
+            <div class="time-label">  
+              Order
+            </div>
+            <div class="time-label">  
+              Prep
+            </div>
+            <div class="time-label time-label-fat">  
+              Eat
+            </div>
+            <div class="time-label">  
+              Pay
+            </div>
+          </div>
+
+          <div class="timeline-row">
+            <div class="time-label time-sublabel">  
+              15min
+            </div>
+            <div class="time-label time-sublabel">  
+              15min
+            </div>
+            <div class="time-label time-label-fat time-sublabel">  
+              30min
+            </div>
+            <div class="time-label time-sublabel">  
+              10min
+            </div>
+          </div>
+
+          <div class="timeline-row">
+            <div class="timeline-rectangle">
+              <div class="timeline-inner-rectangle">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-panel-subtitle">  
+          Dining with DASH &#60;30min
+        </div>
+
+        <div class="timeline-box">
+          <div class="timeline-row">
+            <div class="time-label time-label-fat time-label-dash">  
+              Eat
+            </div>
+          </div>
+
+          <div class="timeline-row">
+            <div class="time-label time-label-fat time-sublabel time-label-dash">  
+              30min
+            </div>
+          </div>
+
+          <div class="timeline-row">
+            <div class="timeline-rectangle-dash">
+              <div class="timeline-inner-rectangle-dash">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="content-panel-light-gray">
+      <div class="content-panel-left">  
+        <div class="content-panel-title">  
+          How it works
+        </div>
+
+        <div class="step-box">
+          <div class="step-box-left">
+            <div class="oval"><div class="oval-number">1</div></div>
+          </div>
+
+          <div class="step-box-right">
+            <div class="step-subtitle">Order Ahead</div>
+            <div class="content-panel-text step-text">  
+              View menus at nearby restaurants offering our service during weekday lunch time.
+            </div>
+          </div>
+        </div>
+
+        <div class="step-box">
+          <div class="step-box-left">
+            <div class="oval"><div class="oval-number">2</div></div>
+          </div>
+
+          <div class="step-box-right">
+            <div class="step-subtitle">Pre-pay</div>
+            <div class="content-panel-text step-text">  
+              Select your favorite items and pay before you leave for the restaurant.
+            </div>
+          </div>
+        </div>
+
+        <div class="step-box">
+          <div class="step-box-left">
+            <div class="oval"><div class="oval-number">3</div></div>
+          </div>
+
+          <div class="step-box-right">
+            <div class="step-subtitle">Meet your food at the table</div>
+            <div class="content-panel-text step-text">  
+              Receive an estimated prep time. Hurry to the restaurant so your food is fresh!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-panel-right">
+        <img class="img-iphones-menu" src="./img/iPhonesMenu.png">
+      </div>
+    </div>
+
+
+
+      <div class="content-panel-white">
+      <div class="content-panel-left">  
+        <div class="content-panel-title">  
+          What people are saying about us
+        </div>
+        <div class="content-panel-text">  
+          Most of the time you spend at a restaurant, you are just waiting for something to happen. With DASH you can pre-order your meal so when you arrive it is ready to eat. When you are finished, just leave! 
+        </div>
+      </div>
+      <div class="content-panel-right">
+      </div>
+    </div>
+
+
+
+
+    <div class="content-light">
+      <a name="getstarted"></a>
+      <div class="col-lg-1 col-md-1 col-sm-1"></div>      
+      <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 signup-content">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <div class="col-lg-7 col-md-8 col-sm-8 col-xs-12">
+            <div class=" floating-title">JOIN PRIVATE BETA</div>
+            <div class="floating-text">
+              We are currently running a private beta of our new app with a select group of restaurants in Austin. Please enter your information below if you'd like to learn more.
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p class="signup-text">Your name</p>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <input class="form-control signup-input" type="text" name="name" ng-model="newSignup.yourName">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p class="signup-text">Restaurant name</p>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <input class="form-control signup-input" type="text" name="name" ng-model="newSignup.restaurantName">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p class="signup-text">City</p>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <input class="form-control signup-input" type="text" name="name" ng-model="newSignup.city">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p class="signup-text">Phone number</p>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <input class="form-control signup-input" type="text" name="name" ng-model="newSignup.phone">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p class="signup-text">Email</p>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <input class="form-control signup-input" type="text" name="name" ng-model="newSignup.email">
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 signup-buffer">
+            <div class="ef-dark-btn-left">
+              <!-- <button class="btn btn-primary btn-sm custom-btn-right" type="submit" ng-click="addParty(newParty)">Add</button> -->
+              <!-- <div class="get-started" emailSignupInfo>SIGN UP</div> -->
+              <div class="get-started" type="submit" ng-click="emailSignupInfo()">SIGN UP</div>
+
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-1"></div>      
+      </div>
+    </div>
+
   </div>
 
-  <!-- <div ng-repeat="restaurant in selectedCity.restaurants"> -->
 
-    <!-- <div ng-click="selectRestaurant(restaurant)"> -->
-    <a href="./menu.html">
-      <div class="menu-item-box">
-        <div class="add-on-title-line">
-          <div class="category-title-text">Example Restaurant</div>
-        </div>
-        <div class="add-on-line">
-          <div class="item-title-text">The Domain</div>
-        </div>
-        <div class="add-on-line">
-          <div class="item-description">
-            Order Ahead available Monday-Friday 11am to 2pm.
-          </div>
-        </div>
-      </div>
-    </a>
-
-    <a href="./menu.html">
-       <div class="menu-item-box">
-        <div class="add-on-title-line">
-          <div class="category-title-text">Example Cafe</div>
-        </div>
-        <div class="add-on-line">
-          <div class="item-title-text">The Domain</div>
-        </div>
-        <div class="add-on-line">
-          <div class="item-description">
-            Order Ahead available Monday-Thursday 11am to 1pm.
-          </div>
-        </div>
-      </div>
-    </a>
-
-    <a href="./menu.html">
-       <div class="menu-item-box">
-        <div class="add-on-title-line">
-          <div class="category-title-text">Cafe Rio</div>
-        </div>
-        <div class="add-on-line">
-          <div class="item-title-text">The Domain</div>
-        </div>
-        <div class="add-on-line">
-          <div class="item-description">
-            Order Ahead available Monday-Friday 11am to 2pm.
-          </div>
-        </div>
-      </div>
-    </a>
-    <!-- </div> -->
-  <!-- </div> -->
 
 </body>
 </html>

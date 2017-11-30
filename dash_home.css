@@ -1,0 +1,654 @@
+
+
+.dash-bg-photo {	
+	background-image: url("../img/HomepageBGPhoto.png");
+  /* Set a specified height, or the minimum height for the background image */
+  height: 700px;
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+  /* Center the background image */
+  background-position: center;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+.dash-logo-top {
+	margin-top: 23px; 
+	width: 90px;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+}
+
+.topbar-rectangle {
+	height: 50px;	
+	border-radius: 3px;	
+	background-color: none; 
+	margin-top: 14px;
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width:auto;
+	float: left;
+	position: relative;
+	z-index:10;
+}
+
+.topbar-left {
+	width: 100%;
+}
+
+.topbar-right {
+	width: 100%;
+}
+
+.topbar-text-restaurants {
+	color: #5C6565;	
+	font-family: "IBM Plex Sans", Helvetica;	
+	font-size: 18px;	
+	font-weight: 500;	
+	line-height: 23px;
+	padding-top: 12px;
+}
+
+.topbar-text-login {
+	color: #042D23;	
+	font-family: "IBM Plex Sans";	
+	font-size: 18px;	
+	font-weight: 500;	
+	padding-top: 10px;
+}
+
+.topbar-rectangle-signup {
+	border: 2px solid #003A2F;	
+	border-radius: 6px;
+	margin-top: 14px;
+	margin-right: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	height:auto;
+	width:auto;
+	float: right;
+	position: relative;
+	z-index:1;
+}
+
+
+.dash-headline-box {	
+	height: 400px;	
+	width: 100%;	
+	color: #042D23;	
+	font-family: "IBM Plex Sans";	
+	font-size: 30px;	
+	font-style: italic;	
+	line-height: 77px;
+	padding-top: 143px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.dash-headline {	
+	font-size: 30px;	
+	font-style: italic;	
+	font-weight: 700;
+	line-height: 77px;
+}
+
+.dash-subheadline {	
+	font-size: 30px;	
+	font-style: italic;	
+	line-height: 40px;
+}
+
+.find-button-text {	
+	color: #FFFFFF;	
+	font-family: "IBM Plex Sans";	
+	font-size: 18px;	
+	font-weight: 500;	
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.find-button {
+	/*height: 54px;	*/
+	/*width: 110px;	*/
+	background-color: #003A2F;
+	border-radius: 6px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: auto;
+	width:auto;
+	float: left;
+	position: relative;
+	z-index:1;
+}
+
+
+.content-panel-white {	
+	height: 880px;	
+	width: 100%;	
+	background-color: white;
+	position: relative;
+	z-index:8;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+}
+
+.content-panel-light-gray {	
+	width: 100%;	
+	background-color: #E9E9E9;	
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+	height: 800px;
+}
+
+.content-panel-left {	
+	height: 440px;	
+	width: 100%;
+	background-color: none;	
+	margin-top: 0px;
+	float: left;
+}
+
+.content-panel-right {	
+	height: 440px;	
+	width: 100%;
+	background-color: none;	
+	margin-top: 0px;
+	float: right;
+}
+
+
+.content-panel-title {	
+	margin-top: 30px;
+	margin-left: 20px;
+	color: #042D23;	
+	font-family: "IBM Plex Sans";	
+	font-size: 28px;	
+	font-weight: 600;	
+}
+
+.content-panel-text {	
+	margin-top: 8px;
+	margin-left: 20px;
+	width: 90%;	
+	color: #232122;	
+	font-family: "IBM Plex Sans";	
+	font-size: 22px;	
+	line-height: 29px;
+}
+
+.content-panel-subtitle {	
+	margin-top: 30px;
+	margin-left: 20px;
+	color: #042D23;	
+	font-family: "IBM Plex Sans";	
+	font-size: 20px;	
+	line-height: 25px;
+	font-weight: 500;	
+}
+
+
+
+
+
+.timeline-box {
+	width: 100%;
+	height: 60px;
+	padding-left: 20px;
+	margin-top: 22px;
+}
+
+.time-label {	
+	width: 60px;	
+	color: #232122;	
+	font-family: "IBM Plex Sans";	
+	font-size: 18px;	
+	line-height: 23px;
+	float: left;
+}
+
+.time-label-fat {
+	width: 120px;
+}
+
+.time-label-dash {
+	margin-left: 40px;
+}
+
+.time-sublabel {	
+	color: #646364;	
+	font-size: 16px;	
+	line-height: 20px;
+}
+
+.timeline-row {
+	height: 28px;	
+	width: 320px;	
+}
+
+.timeline-rectangle {
+	height: 28px;	
+	width: 300px;	
+	border-radius: 6px;	
+	background-color: #D8D8D8;
+	position: relative;
+}
+
+.timeline-inner-rectangle {
+	height: 28px;	
+	width: 120px;	
+	margin-left: 120px;
+	background-color: #FFB000;
+	position: absolute;
+}
+
+.timeline-rectangle-dash {
+	height: 28px;	
+	width: 160px;	
+	border-radius: 6px;	
+	background-color: #D8D8D8;
+	position: relative;
+}
+
+.timeline-inner-rectangle-dash {
+	height: 28px;	
+	width: 120px;	
+	margin-left: 40px;
+	background-color: #FFB000;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	position: absolute;
+}
+
+.step-box {
+	margin-left: 20px;
+	margin-top: 40px;
+	width: 100%;
+	display: block;
+	overflow: auto;
+	position: relative;
+	z-index: 10;
+}
+
+.step-box-left {
+	float: left;
+}
+
+.step-box-right {
+	float: left;
+}
+
+.oval {	
+	height: 40px;	
+	width: 40px;	
+	padding-left: auto;
+	padding-right: auto;
+	border: 2px solid #003A2F;
+	border-radius: 20px;
+	position:relative;
+	margin-right: 24px;
+}
+
+.oval-number {	
+	color: #042D23;	
+	font-family: "IBM Plex Sans";	
+	font-size: 22px;	
+	font-weight: 600;
+	margin-left: 12px;
+	margin-top: 1px;
+}
+
+
+.step-subtitle {	
+	color: #042D23;	
+	font-family: "IBM Plex Sans";	
+	font-size: 22px;	
+	font-weight: 600;	
+}
+
+.step-text {	
+	margin-left:0px;
+}
+
+.img-iphones-menu {
+	margin-top: 140px;
+	width: 600px;
+	position:relative;
+	z-index: 6;
+}
+
+
+/**************************************************/
+/* Desktop Size Screens */
+/**************************************************/
+
+@media (min-width: 980px) { 
+
+	.dash-bg-photo {	
+		background-image: url("../img/HomepageBGPhoto.png");
+	  /* Set a specified height, or the minimum height for the background image */
+	  height: 700px;
+	  /* Set background image to fixed (don't scroll along with the page) */
+	  background-attachment: fixed;
+	  /* Center the background image */
+	  background-position: center;
+	  /* Set the background image to no repeat */
+	  background-repeat: no-repeat;
+	  /* Scale the background image to be as large as possible */
+	  background-size: cover;
+	}
+
+	.topbar-left {
+		width: 50%;
+	}
+
+	.topbar-right {
+		width: 50%;
+	}
+
+	.topbar-rectangle {
+		height: 50px;	
+		border-radius: 3px;	
+		background-color: none; 
+		margin-top: 14px;
+		margin-right: 21px;
+		padding-left: 10px;
+		padding-right: 10px;
+		width:auto;
+		float: right;
+		position: relative;
+		z-index:10;
+	}
+
+	.topbar-text-restaurants {
+		color: #5C6565;	
+		font-family: "IBM Plex Sans", Helvetica;	
+		font-size: 18px;	
+		font-weight: 500;	
+		line-height: 23px;
+		padding-top: 12px;
+	}
+
+	.topbar-text-login {
+		color: #042D23;	
+		font-family: "IBM Plex Sans";	
+		font-size: 18px;	
+		font-weight: 500;	
+		padding-top: 10px;
+	}
+
+	.topbar-rectangle-signup {
+		border: 2px solid #003A2F;	
+		border-radius: 6px;
+		margin-top: 14px;
+		margin-right: 21px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 10px;
+		height:auto;
+		width:auto;
+		float: right;
+		position: relative;
+		z-index:1;
+	}
+
+
+	.dash-logo-top {
+		margin-top: 23px; 
+		width: 90px;
+		position: relative;
+		float: left;
+		margin-left: 82px;
+	}
+
+
+	.dash-headline-box {	
+		height: 450px;	
+		width: 600px;	
+		color: #042D23;	
+		font-family: "IBM Plex Sans";	
+		font-size: 60px;	
+		font-style: italic;	
+		line-height: 77px;
+		padding-top: 143px;
+		padding-left: 82px;
+		position: relative;
+	}
+
+	.dash-headline {	
+		font-size: 60px;	
+		font-style: italic;	
+		font-weight: 700;
+		line-height: 77px;
+	}
+
+	.dash-subheadline {	
+		font-size: 60px;	
+		font-style: italic;	
+		line-height: 77px;
+	}
+
+	.find-button {
+		background-color: #003A2F;
+		border-radius: 6px;
+		margin-top: 70px;
+		margin-left: 82px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		height: auto;
+		width:auto;
+		float: left;
+		position: relative;
+		z-index:1;
+	}
+
+	.content-panel-white {	
+		height: 440px;	
+		width: 100%;	
+		background-color: white;
+		position: relative;
+		z-index:8;
+		box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+	}
+
+	.content-panel-light-gray {	
+		width: 100%;	
+		background-color: #E9E9E9;	
+		box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+		height: 600px;
+	}
+
+	.content-panel-left {	
+		height: 440px;	
+		width: 50%;
+		background-color: none;	
+		margin-top: 0px;
+		float: left;
+	}
+
+	.content-panel-right {	
+		height: 440px;	
+		width: 50%;
+		background-color: none;	
+		margin-top: 0px;
+		float: right;
+	}
+
+
+	.content-panel-title {	
+		margin-top: 60px;
+		margin-left: 82px;
+		color: #042D23;	
+		font-family: "IBM Plex Sans";	
+		font-size: 28px;	
+		font-weight: 600;	
+	}
+
+	.content-panel-text {	
+		margin-top: 18px;
+		margin-left: 82px;
+		width: 445px;	
+		color: #232122;	
+		font-family: "IBM Plex Sans";	
+		font-size: 22px;	
+		line-height: 29px;
+	}
+
+	.content-panel-subtitle {	
+		margin-top: 60px;
+		margin-left: 82px;
+		color: #042D23;	
+		font-family: "IBM Plex Sans";	
+		font-size: 20px;	
+		line-height: 25px;
+		font-weight: 500;	
+	}
+
+
+
+
+
+
+
+	.timeline-box {
+		width: 100%;
+		height: 60px;
+		padding-left: 82px;
+		margin-top: 22px;
+	}
+
+	.time-label {	
+		width: 70px;	
+		color: #232122;	
+		font-family: "IBM Plex Sans";	
+		font-size: 18px;	
+		line-height: 23px;
+		float: left;
+	}
+
+	.time-label-fat {
+		width: 140px;
+	}
+
+	.time-label-dash {
+		margin-left: 40px;
+	}
+
+	.time-sublabel {	
+		color: #646364;	
+		font-size: 16px;	
+		line-height: 20px;
+	}
+
+	.timeline-row {
+		height: 28px;	
+		width: 374px;	
+	}
+
+	.timeline-rectangle {
+		height: 28px;	
+		width: 374px;	
+		border-radius: 6px;	
+		background-color: #D8D8D8;
+		position: relative;
+	}
+
+	.timeline-inner-rectangle {
+		height: 28px;	
+		width: 140px;	
+		margin-left: 140px;
+		background-color: #FFB000;
+		position: absolute;
+	}
+
+	.timeline-rectangle-dash {
+		height: 28px;	
+		width: 180px;	
+		border-radius: 6px;	
+		background-color: #D8D8D8;
+		position: relative;
+	}
+
+	.timeline-inner-rectangle-dash {
+		height: 28px;	
+		width: 140px;	
+		margin-left: 40px;
+		background-color: #FFB000;
+		border-top-right-radius: 6px;
+		border-bottom-right-radius: 6px;
+		position: absolute;
+	}
+
+	.step-box {
+		margin-left: 82px;
+		margin-top: 40px;
+		width: 100%;
+		display: block;
+		overflow: auto;
+		position: relative;
+		z-index: 10;
+	}
+
+	.step-box-left {
+		float: left;
+	}
+
+	.step-box-right {
+		float: left;
+	}
+
+	.oval {	
+		height: 40px;	
+		width: 40px;	
+		padding-left: auto;
+		padding-right: auto;
+		border: 2px solid #003A2F;
+		border-radius: 20px;
+		position:relative;
+		margin-right: 24px;
+	}
+
+	.oval-number {	
+		color: #042D23;	
+		font-family: "IBM Plex Sans";	
+		font-size: 22px;	
+		font-weight: 600;
+		margin-left: 12px;
+		margin-top: 1px;
+	}
+
+
+	.step-subtitle {	
+		color: #042D23;	
+		font-family: "IBM Plex Sans";	
+		font-size: 22px;	
+		font-weight: 600;	
+	}
+
+	.step-text {	
+		margin-left:0px;
+	}
+
+	.img-iphones-menu {
+		margin-top: 140px;
+		width: 600px;
+		position:relative;
+		z-index: 6;
+	}
+
+}
+
+
+
+
+
+
